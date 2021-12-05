@@ -1,7 +1,6 @@
 Data:
-	Matrix containing movie ratings made by users.
+	Matrix containing movie ratings made by real users.
 	Matrix is extracted from a Netflix Database.
-	The matrix is sparse. (Mostly 0s)
 	
 Objective:
 	Build a mixture model for collaborative filtering. 
@@ -15,4 +14,7 @@ Model:
 EM Algorithm:
 	E-Step - softly assigns users to clusters
 	M-Step - re-estimates the Gaussians
+	
+nbviewer link:
+	https://nbviewer.org/github/OnlineDimension/gmm_recommender/blob/main/GMM.ipynb
 	
